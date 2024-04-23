@@ -384,22 +384,22 @@ class _PhoneDetailsViewState extends State<PhoneDetailsView> {
                   const SizedBox(height: 20),
                   Text(
                     'Thương hiệu: ${widget.phone.brand.value}',
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                   const SizedBox(height: 10),
                   Text(
                     'Mẫu: ${widget.phone.model.value}',
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                   const SizedBox(height: 10),
                   Text(
                     'Giá: ${widget.phone.price.value} VND',
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                   const SizedBox(height: 10),
                   Text(
                     'Thông số kỹ thuật: ${widget.phone.specifications.value}',
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                 ],
               ),
